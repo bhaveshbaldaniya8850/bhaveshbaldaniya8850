@@ -1,0 +1,40 @@
+#creadits : This game is created by Bhavesh Baldaniya
+
+note = '''You have to guess the number wich is hidden,
+Range of guess the number is 1 to 100
+you can get a clue after every attempt,
+and you can do only 9 attempt
+Best of luck :D '''
+#a is a number/input taken by the user
+#b is a hidden number
+import random
+
+b = (random.randrange(1,100))
+x = 8
+c = 0
+d = 100
+print (note)
+for i in range (9):
+	a = int(input("Enter the number :"))
+	print ("attempt left =",x)
+	x = x-1
+	if b > a:
+		c = a
+	elif b < a:
+		d = a
+	if a>100:
+		print ("Please enter number which is comes under 1 to 100")
+	elif a == b:
+		print ("you have found the correct number")
+		print ("number of attent you have did is =", 9-x)
+		break
+	elif a != b:
+		print ("Try more greater number then ", c ," and lesser number then ", d)
+if a!=b:
+	print ('''Your numbers of attemt is completed
+Batter luck next time
+Your hidden number is   ''',b)
+elif a==b:
+	print ("Congratulations")
+	#from playsound import playsound
+	#playsound('E:\\Python cource\\mini.mp3')
