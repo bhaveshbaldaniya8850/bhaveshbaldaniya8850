@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @bhaveshbaldaniya8850
+- 👋 Hi, I’m Bhavesh Baldaniya
 - 👀 I’m interested in Robotics
 - 🌱 I’m currently learning MCA
 - 💞️ I’m looking to collaborate on ...
