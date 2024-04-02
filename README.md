@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Bhavesh Baldaniya
-- 👀 I’m interested in Robotics
+- 👀 I’m interested in AI ML & Robotics
 - 🌱 I’m currently learning MCA
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me Bhaveshbaldaniya8850@gmail.com
